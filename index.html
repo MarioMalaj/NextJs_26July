@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Python.org</title>  
+ </head>
+
+<body>
+    <body class="python home" id="homepage">
+
+
+            <div id="top" class="top-bar do-not-print">
+    
+                <nav class="meta-navigation container" role="navigation">
+    
+                    <div class="skip-link screen-reader-text">
+                        <a href="" title="Skip to content">Skip to content</a>
+                    </div>
+    
+                    <a id="close-python-network" class="jump-link" href="" aria-hidden="true">
+                        <span aria-hidden="true" class="icon-arrow-down"><span>▼</span></span> Close
+                    </a>
+    
+                    <ul class="menu" role="tree">
+                        <li class="python-meta current_item selectedcurrent_branch selected">
+                            <a href="" title="The Python Programming Language" class="current_item selectedcurrent_branch selected">Python</a>
+                        </li>
+                        <li class="psf-meta ">
+                            <a href="" title="The Python Software Foundation">PSF</a>
+                        </li>
+                        <li class="docs-meta ">
+                            <a href="" title="Python Documentation">Docs</a>
+                        </li>
+                        <li class="pypi-meta ">
+                            <a href="" title="Python Package Index">PyPI</a>
+                        </li>
+                        <li class="jobs-meta ">
+                            <a href="" title="Python Job Board">Jobs</a>
+                        </li>
+                        <li class="shop-meta ">
+                            <a href="">Community</a>
+                        </li>
+                    </ul>
+    
+                    <a id="python-network" class="jump-link" href="" aria-hidden="true">
+                        <span aria-hidden="true" class="icon-arrow-up"><span>▲</span></span> The Python Network
+                    </a>
+    
+                </nav>
+    
+            </div>
+    
+            <!-- Header elements -->
+            <header class="main-header" role="banner">
+                <div class="container">
+    
+                    <h1 class="site-headline">
+                        <a href=""><img class="python-logo" src="/static/img/python-logo@2x.png" alt="python™" width="290" height="82"></a>
+                    </h1>
+    
+                    <div class="options-bar-container do-not-print">
+                        <a href="" class="donate-button">Donate</a>
+                        <div class="options-bar">
+                            
+                            <a id="site-map-link" class="jump-to-menu" href=""><span class="menu-icon">≡</span> Menu</a><form class="search-the-site" action="/search/" method="get">
+                                <fieldset title="Search Python.org">
+    
+                                    <span aria-hidden="true" class="icon-search"></span>
+    
+                                    <label class="screen-reader-text" for="id-search-field">Search This Site</label>
+                                    <input id="id-search-field" name="q" type="search" role="textbox" class="search-field" placeholder="Search" value="" tabindex="1">
+    
+                                    <button type="submit" name="submit" id="submit" class="search-button" title="Submit this Search" tabindex="3">
+                                        GO
+                                    </button>
+    
+                                </fieldset>
+                            </form><span class="breaker"></span><div class="adjust-font-size" aria-hidden="true">
+                                <ul class="navigation menu" aria-label="Adjust Text Size on Page">
+                                    <li class="tier-1 last" aria-haspopup="true">
+                                        <a href="" class="action-trigger"><strong><small>A</small> A</strong></a>
+                                        <ul class="subnav menu">
+                                            <li class="tier-2 element-1" role="treeitem"><a class="text-shrink" title="Make Text Smaller" href="">Smaller</a></li>
+                                            <li class="tier-2 element-2" role="treeitem"><a class="text-grow" title="Make Text Larger" href="">Larger</a></li>
+                                            <li class="tier-2 element-3" role="treeitem"><a class="text-reset" title="Reset any font size changes I have made" href="">Reset</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div><div class="winkwink-nudgenudge">
+                                <ul class="navigation menu" aria-label="Social Media Navigation">
+                                    <li class="tier-1 last" aria-haspopup="true">
+                                        <a href="" class="action-trigger">Socialize</a>
+                                        <ul class="subnav menu">
+                                            <li class="tier-2 element-1" role="treeitem"><a href=""><i aria-hidden="true" class="fa fa-linkedin-square"></i>LinkedIn</a></li>
+                                            <li class="tier-2 element-2" role="treeitem"><a href=""><span aria-hidden="true" class="icon-mastodon"></span>Mastodon</a></li>
+                                            <li class="tier-2 element-3" role="treeitem"><a href=""><span aria-hidden="true" class="icon-freenode"></span>Chat on IRC</a></li>
+                                            <li class="tier-2 element-4" role="treeitem"><a href=""><span aria-hidden="true" class="icon-twitter"></span>Twitter</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span data-html-include="/authenticated"><div class="account-signin">
+        <ul class="navigation menu" aria-label="Social Media Navigation">
+            <li class="tier-1 last" aria-haspopup="true">
+                
+                <a href="" title="Sign Up or Sign In to Python.org">Sign In</a>
+                <ul class="subnav menu">
+                    <li class="tier-2 element-1" role="treeitem"><a href="">Sign Up / Register</a></li>
+                    <li class="tier-2 element-2" role="treeitem"><a href="">Sign In</a></li>
+                </ul>
+                
+            </li>
+        </ul>
+    </div>
+    
+    </span>
+                        </div><!-- end options-bar -->
+                    </div>
+    
+                    <nav id="mainnav" class="python-navigation main-navigation do-not-print" role="navigation">
+                        <ul class="navigation menu" role="menubar" aria-label="Main Navigation">
+                            <li id="about" class="tier-1 element-1 with-supernav" aria-haspopup="true">
+                                <a href="" title="" class="">About</a>
+                                <ul class="subnav menu" role="menu" aria-hidden="true">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="" title="">Applications</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="" title="">Quotes</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a href="" title="">Getting Started</a></li>
+                                    <li class="tier-2 element-4" role="treeitem"><a href="" title="">Help</a></li>
+                                    <li class="tier-2 element-5" role="treeitem"><a href="" title="">Python Brochure</a></li>
+                                    <li class="tier-2 super-navigation">
+                                        <h4>Python is a programming language that lets you work more quickly and integrate your systems more effectively.</h4>
+                                        <p>You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs. <a href="">Learn more about Python</a>.</p>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li id="downloads" class="tier-1 element-2 with-supernav" aria-haspopup="true">
+                                <a href="" title="" class="">Downloads</a>
+                                <ul class="subnav menu" role="menu" aria-hidden="true">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="" title="">All releases</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="" title="">Source code</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a href="" title="">Windows</a></li>
+                                    <li class="tier-2 element-4" role="treeitem"><a href="" title="">macOS</a></li>
+                                    <li class="tier-2 element-5" </li>
+                        </ul>
+
+        
+            <li class="tier-2 element-3" role="treeitem"><a href="" title="">Windows</a></li>
+        
+            <li class="tier-2 element-4" role="treeitem"><a href="" title="">macOS</a></li>
+        
+            <li class="tier-2 element-5" role="treeitem"><a href="" title="">Other Platforms</a></li>
+        
+            <li class="tier-2 element-6" role="treeitem"><a href="" title="">License</a></li>
+        
+            <li class="tier-2 element-7" role="treeitem"><a href="" title="">Alternative Implementations</a></li>
+        
+    <!-- Download supernav from templates/downloads/supernav.html - Last updated at July 18, 2024, 1:56 p.m. -->
+    <li class="tier-2 super-navigation">
+        
+        <div class="download-os-source" style="display: none;">
+            
+            <h3>Python Source</h3>
+            
+            <p>
+                <a class="button" href="">Python 3.12.4</a>
+            </p>
+            
+            <p>Not the OS you are looking for? Python can be used on many operating systems and environments. <a href="">View the full list of downloads</a>.</p>
+        </div>
+        
+        <div class="download-os-windows" >
+            
+            <h4>Download for Windows</h4>
+            
+            <p>
+                <a class="button" href="">Python 3.12.4</a>
+            </p>
+            <p><strong>Note that Python 3.9+ <em>cannot</em> be used on Windows 7 or earlier.</strong></p>
+            <p>Not the OS you are looking for? Python can be used on many operating systems and environments. <a href="">View the full list of downloads</a>.</p>
+        </div>
+        
+        <div class="download-os-macos" style="display: none;">
+            
+            <h4>Download for macOS</h4>
+            
+            <p>
+                <a class="button" href="">Python 3.12.4</a>
+            </p>
+            
+            <p>Not the OS you are looking for? Python can be used on many operating systems and environments. <a href="">View the full list of downloads</a>.</p>
+        </div>
+        
+        <div class="download-unknown" style="display: none;">
+            <h4>Download Python for Any OS</h4>
+            <p>Python can be used on many operating systems and environments.</p>
+            <p>
+                <a class="button" href="">View the full list of downloads</a>
+            </p>
+        </div>
+    </li>
+    </ul>
+    
+            
+        </li>
+        
+        
+        
+        <li id="documentation" class="tier-1 element-3   with-supernav" aria-haspopup="true">
+            <a href="" title="" class="">Documentation</a>
+            
+                
+    
+    <ul class="subnav menu" role="menu" aria-hidden="true">
+        
+            <li class="tier-2 element-1" role="treeitem"><a href="" title="">Docs</a></li>
+        
+            <li class="tier-2 element-2" role="treeitem"><a href="" title="">Audio/Visual Talks</a></li>
+        
+            <li class="tier-2 element-3" role="treeitem"><a href="" title="">Beginner's Guide</a></li>
+        
+            <li class="tier-2 element-4" role="treeitem"><a href="" title="">Developer's Guide</a></li>
+        
+            <li class="tier-2 element-5" role="treeitem"><a href="" title="">FAQ</a></li>
+        
+            <li class="tier-2 element-6" role="treeitem"><a href="" title="">Non-English Docs</a></li>
+        
+            <li class="tier-2 element-7" role="treeitem"><a href="" title="">PEP Index</a></li>
+        
+            <li class="tier-2 element-8" role="treeitem"><a href="" title="">Python Books</a></li>
+        
+            <li class="tier-2 element-9" role="treeitem"><a href="" title="">Python Essays</a></li>
+        
+    <li class="tier-2 super-navigation">
+                                    <h4>Python’s standard documentation: download, browse or watch a tutorial.</h4>
+                                    <p>Get started below, or visit the <a href="">Documentation page to browse by version</a>. </p>
+                                    <br>
+                                    <p class="download-buttons">
+                                        <a class="button" href="">Python Docs</a> 
+                                    </p>
+                                </li></ul>
+    
+            
+        </li>
+        
+        
+        
+        <li id="community" class="tier-1 element-4   with-supernav" aria-haspopup="true">
+            <a href="" title="" class="">Community</a>
+            
+                
+    
+    <ul class="subnav menu" role="menu" aria-hidden="true">
+        
+            <li class="tier-2 element-1" role="treeitem"><a href="" title="">Diversity</a></li>
+        
+            <li class="tier-2 element-2" role="treeitem"><a href="" title="">Mailing Lists</a></li>
+        
+            <li class="tier-2 element-3" role="treeitem"><a href="" title="">IRC</a></li>
+        
+            <li class="tier-2 element-4" role="treeitem"><a href="" title="">Forums</a></li>
+        
+            <li class="tier-2 element-5" role="treeitem"><a href="" title="">PSF Annual Impact Report</a></li>
+        
+            <li class="tier-2 element-6" role="treeitem"><a href="" title="">Python Conferences</a></li>
+        
+            <li class="tier-2 element-7" role="treeitem"><a href="" title="">Special Interest Groups</a></li>
+        
+            <li class="tier-2 element-8" role="treeitem"><a href="" title="">Python Logo</a></li>
+        
+            <li class="tier-2 element-9" role="treeitem"><a href="" title="">Python Wiki</a></li>
+        
+            <li class="tier-2 element-10" role="treeitem"><a href="" title="">Code of Conduct</a></li>
+        
+            <li class="tier-2 element-11" role="treeitem"><a href="" title="">Community Awards</a></li>
+        
+            <li class="tier-2 element-12" role="treeitem"><a href="" title="">Get Involved</a></li>
+        
+            <li class="tier-2 element-13" role="treeitem"><a href="" title="">Shared Stories</a></li>
+        
+                                <li class="tier-2 super-navigation">
+                                    <h4>The Python Community</h4>
+    <p>Great software is supported by great people. Our user base is enthusiastic, dedicated to encouraging use of the language, and committed to being diverse and friendly.</p>
+    
+ </li></ul>
+    
+            
+        </li>
+        
+        
+        
+        <li id="success-stories" class="tier-1 element-5   with-supernav" aria-haspopup="true">
+            <a href="" title="success-stories" class="">Success Stories</a>
+            
+                
+    
+    <ul class="subnav menu" role="menu" aria-hidden="true">
+        
+            <li class="tier-2 element-1" role="treeitem"><a href="" title="">Arts</a></li>
+        
+            <li class="tier-2 element-2" role="treeitem"><a href="" title="">Business</a></li>
+        
+            <li class="tier-2 element-3" role="treeitem"><a href="" title="">Education</a></li>
+        
+            <li class="tier-2 element-4" role="treeitem"><a href="" title="">Engineering</a></li>
+        
+            <li class="tier-2 element-5" role="treeitem"><a href="" title="">Government</a></li>
+        
+            <li class="tier-2 element-6" role="treeitem"><a href="" title="">Scientific</a></li>
+        
+            <li class="tier-2 element-7" role="treeitem"><a href="" title="">Software Development</a></li>
+        
+    <!-- successstories supernav from templates/successstories/supernav.html -->
+           <li class="tier-2 super-navigation">
+                
+                <blockquote class="success-quote">
+                    Maintaining our ever-evolving Python codebase poses an intricate challenge: how do we make updates to reflect the changing rules and regulations of 200+ global markets without compromising access to the systems that our engineers and traders use on a daily basis? While an inner layer of shared business logic enables coherency in our codebase performance, it also means small regulatory changes can impact many systems.
+    
+    In this article, Python Engineer John Lekberg details how we use Python type annotations to minimize the time and risk involved in manual verification.
+                </blockquote>
+                <p class="quote-by"><cite>John Lekberg</cite>, <a href="">Hudson River Trading</a></p>
+    
+            </li></ul>
+    
+            
+        </li>
+        
+        
+        
+        <li id="news" class="tier-1 element-6  " aria-haspopup="true">
+            <a href="" title="News from around the Python world" class="">News</a>
+            
+                
+    
+    <ul class="subnav menu" role="menu" aria-hidden="true">
+        
+            <li class="tier-2 element-1" role="treeitem"><a href="" title="Python Insider Blog Posts">Python News</a></li>
+        
+            <li class="tier-2 element-2" role="treeitem"><a href="" title="Python Software Foundation Newsletter">PSF Newsletter</a></li>
+        
+            <li class="tier-2 element-3" role="treeitem"><a href="" title="PSF Blog">PSF News</a></li>
+        
+            <li class="tier-2 element-4" role="treeitem"><a href="" title="PyCon Blog">PyCon US News</a></li>
+        
+            <li class="tier-2 element-5" role="treeitem"><a href="" title="Planet Python">News from the Community</a></li>
+        
+    </ul>
+    
+            
+        </li>
+        
+        
+        
+        <li id="events" class="tier-1 element-7   with-supernav" aria-haspopup="true">
+            <a href="" title="" class="">Events</a>
+            
+                
+    
+    <ul class="subnav menu" role="menu" aria-hidden="true">
+        
+            <li class="tier-2 element-1" role="treeitem"><a href="" title="">Python Events</a></li>
+        
+            <li class="tier-2 element-2" role="treeitem"><a href="" title="">User Group Events</a></li>
+        
+            <li class="tier-2 element-3" role="treeitem"><a href="" title="">Python Events Archive</a></li>
+        
+            <li class="tier-2 element-4" role="treeitem"><a href="" title="">User Group Events Archive</a></li>
+        
+            <li class="tier-2 element-5" role="treeitem"><a href="" title="">Submit an Event</a></li>
+        
+    <li class="tier-2 super-navigation">Find events from the Python Community around the world!</li></ul>
+    
+            </li>
+        
+ </ul>
+          </nav>
+    
+                    <div class="header-banner "> <!-- for optional "do-not-print" class -->
+                        
+            <div id="dive-into-python" class="flex-slideshow slideshow">
+    
+                <ul class="launch-shell menu" id="launch-shell" style="display: block;">
+                    <li>
+                        <a class="button prompt" id="start-shell" data-shell-container="#dive-into-python" href="">&gt;_
+                            <span class="message">Launch Interactive Shell</span>
+                        </a>
+                    </li>
+                </ul>
+    
+                <ul class="slides menu">
+                    
+                    <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;">
+                        <div class="slide-code"><pre><code><span class="comment"># Python 3: Fibonacci series up to n</span>
+    &gt;&gt;&gt; def fib(n):
+    &gt;&gt;&gt;     a, b = 0, 1
+    &gt;&gt;&gt;     while a &lt; n:
+    &gt;&gt;&gt;         print(a, end=' ')
+    &gt;&gt;&gt;         a, b = b, a+b
+    &gt;&gt;&gt;     print()
+    &gt;&gt;&gt; fib(1000)
+    <span class="output">0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987</span></code></pre></div>
+                        <div class="slide-copy"><h1>Functions Defined</h1>
+    <p>The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists. <a href="">More about defining functions in Python&nbsp;3</a></p></div>
+                    </li>
+                    
+                    <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;" class="">
+                        <div class="slide-code"><pre><code><span class="comment"># Python 3: List comprehensions</span>
+    &gt;&gt;&gt; fruits = ['Banana', 'Apple', 'Lime']
+    &gt;&gt;&gt; loud_fruits = [fruit.upper() for fruit in fruits]
+    &gt;&gt;&gt; print(loud_fruits)
+    <span class="output">['BANANA', 'APPLE', 'LIME']</span>
+    
+    <span class="comment"># List and the enumerate function</span>
+    &gt;&gt;&gt; list(enumerate(fruits))
+    <span class="output">[(0, 'Banana'), (1, 'Apple'), (2, 'Lime')]</span></code></pre></div>
+                        <div class="slide-copy"><h1>Compound Data Types</h1>
+    <p>Lists (known as arrays in other languages) are one of the compound data types that Python understands. Lists can be indexed, sliced and manipulated with other built-in functions. <a href="">More about lists in Python&nbsp;3</a></p></div>
+                    </li>
+                    
+                    <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;" class="">
+                        <div class="slide-code"><pre><code><span class="comment"># Python 3: Simple arithmetic</span>
+    &gt;&gt;&gt; 1 / 2
+    <span class="output">0.5</span>
+    &gt;&gt;&gt; 2 ** 3
+    <span class="output">8</span>
+    &gt;&gt;&gt; 17 / 3  <span class="comment"># classic division returns a float</span>
+    <span class="output">5.666666666666667</span>
+    &gt;&gt;&gt; 17 // 3  <span class="comment"># floor division</span>
+    <span class="output">5</span></code></pre></div>
+                        <div class="slide-copy"><h1>Intuitive Interpretation</h1>
+    <p>Calculations are simple with Python, and expression syntax is straightforward: the operators <code>+</code>, <code>-</code>, <code>*</code> and <code>/</code> work as expected; parentheses <code>()</code> can be used for grouping. <a href="">More about simple math functions in Python&nbsp;3</a>.</p></div>
+                    </li>
+                    
+                    <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;" class="flex-active-slide">
+                        <div class="slide-code"><pre><code><span class="comment"># For loop on a list</span>
+    &gt;&gt;&gt; numbers = [2, 4, 6, 8]
+    &gt;&gt;&gt; product = 1
+    &gt;&gt;&gt; for number in numbers:
+    ...    product = product * number
+    ... 
+    &gt;&gt;&gt; print('The product is:', product)
+    <span class="output">The product is: 384</span></code></pre></div>
+                        <div class="slide-copy"><h1>All the Flow You’d Expect</h1>
+    <p>Python knows the usual control flow statements that other languages speak — <code>if</code>, <code>for</code>, <code>while</code> and <code>range</code> — with some of its own twists, of course. <a href="">More control flow tools in Python&nbsp;3</a></p></div>
+                    </li>
+                    
+                    <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;" class="">
+                        <div class="slide-code"><pre><code><span class="comment"># Simple output (with Unicode)</span>
+    &gt;&gt;&gt; print("Hello, I'm Python!")
+    <span class="output">Hello, I'm Python!</span>
+    <span class="comment"># Input, assignment</span>
+    &gt;&gt;&gt; name = input('What is your name?\n')
+    <span class="output">What is your name?
+    Python</span>
+    &gt;&gt;&gt; print(f'Hi, {name}.')
+    <span class="output">Hi, Python.</span></code>
+    </pre></div>
+                        <div class="slide-copy"><h1>Quick &amp; Easy to Learn</h1>
+    <p>Experienced programmers in any other language can pick up Python very quickly, and beginners find the clean syntax and indentation structure easy to learn. <a href="">Whet your appetite</a> with our Python&nbsp;3 overview.</p></div>
+                    </li>
+                    
+                </ul>
+            <ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="">3</a></li><li><a class="flex-active">4</a></li><li><a class="">5</a></li></ol></div>
+    
+    
+                    </div>
+    
+                    
+            <div class="introduction">
+                <p>Python is a programming language that lets you work quickly <span class="breaker"></span>and integrate systems more effectively. <a class="readmore" href="">Learn More</a></p>
+            </div>
+    
+    
+                 </div><!-- end .container -->
+            </header>
+    
+            <div id="content" class="content-wrapper">
+                <!-- Main Content Column -->
+                <div class="container">
+    
+                    <section class="main-content " role="main">
+    
+                     <div class="row">
+    
+                        <div class="small-widget get-started-widget">
+                            <h2 class="widget-title"><span aria-hidden="true" class="icon-get-started"></span>Get Started</h2>
+    <p>Whether you're new to programming or an experienced developer, it's easy to learn and use Python.</p>
+    <p><a href="">Start with our Beginner’s Guide</a></p>
+                        </div>
+    
+                        <div class="small-widget download-widget">
+                            <h2 class="widget-title"><span aria-hidden="true" class="icon-download"></span>Download</h2>
+    <p>Python source code and installers are available for download for all versions!</p>
+    <p>Latest: <a href="">Python 3.12.4</a></p>
+                        </div>
+    
+                        <div class="small-widget documentation-widget">
+                            <h2 class="widget-title"><span aria-hidden="true" class="icon-documentation"></span>Docs</h2>
+    <p>Documentation for Python's standard library, along with tutorials and guides, are available online.</p>
+    <p><a href="">docs.python.org</a></p>
+                        </div>
+    
+                        <div class="small-widget jobs-widget last">
+                            <h2 class="widget-title"><span aria-hidden="true" class="icon-jobs"></span>Jobs</h2>
+    <p>Looking for work or have a Python related position that you're trying to hire for? Our <strong>relaunched community-run job board</strong> is the place to go.</p>
+    <p><a href="">jobs.python.org</a></p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="list-widgets row">
+    
+                        <div class="medium-widget blog-widget">
+                            
+                            <div class="shrubbery">
+                            
+                                <h2 class="widget-title"><span aria-hidden="true" class="icon-news"></span>Latest News</h2>
+                                <p class="give-me-more"><a href="" title="More News">More</a></p>
+                                
+                                <ul class="menu">
+                                    
+                                    
+                                    <li>
+    <time datetime="2024-07-26T15:33:00.000004+00:00"><span class="say-no-more">2024-</span>07-26</time>
+     <a href="">Notice of Python Software Foundation Bylaws change, effective 10 August 2024</a></li>
+                                    
+                                    <li>
+    <time datetime="2024-07-26T13:49:00.000004+00:00"><span class="say-no-more">2024-</span>07-26</time>
+     <a href="">Python’s Supportive and Welcoming Environment is Tightly Coupled to Its Progress</a></li>
+                                    
+                                    <li>
+    <time datetime="2024-07-18T15:00:00.000003+00:00"><span class="say-no-more">2024-</span>07-18</time>
+     <a href="">PSF Board update on improvements to the PSF Grants program</a></li>
+                                    
+                                    <li>
+    <time datetime="2024-07-18T14:16:00.000003+00:00"><span class="say-no-more">2024-</span>07-18</time>
+     <a href="">Python 3.13.0 beta 4 released</a></li>
+                                    
+                                    <li>
+    <time datetime="2024-07-17T15:11:00.000002+00:00"><span class="say-no-more">2024-</span>07-17</time>
+     <a href="">Announcing the 2024 PSF Board Election &amp; Proposed Bylaw Change Results!</a></li>
+                                    
+                                </ul>
+                            </div><!-- end .shrubbery -->
+    
+                        </div>
+    
+                        <div class="medium-widget event-widget last">
+                            
+                            <div class="shrubbery">
+                            
+                                <h2 class="widget-title"><span aria-hidden="true" class="icon-calendar"></span>Upcoming Events</h2>
+                                <p class="give-me-more"><a href="" title="More Events">More</a></p>
+                                
+                                <ul class="menu">
+                                    
+                                    
+                                    
+                                    <li>
+    <time datetime="2024-07-27T16:00:00+00:00"><span class="say-no-more">2024-</span>07-27</time>
+     <a href="">Lightning Talks - PythonHo User Group Ho </a></li>
+                                    
+                                    
+                                    
+                                    <li>
+    <time datetime="2024-08-03T14:00:00+00:00"><span class="say-no-more">2024-</span>08-03</time>
+     <a href="">Django Girls Ecuador 2024</a></li>
+                                    
+                                    
+                                    
+                                    <li>
+    <time datetime="2024-08-09T00:00:00+00:00"><span class="say-no-more">2024-</span>08-09</time>
+     <a href="">Python Nordeste 2024</a></li>
+                                    
+                                    
+                                    
+                                    <li>
+    <time datetime="2024-08-10T00:00:00+00:00"><span class="say-no-more">2024-</span>08-10</time>
+     <a href="">Python Communities - South West Region</a></li>
+                                    
+                                    
+                                    
+                                    <li>
+    <time datetime="2024-08-12T00:00:00+00:00"><span class="say-no-more">2024-</span>08-12</time>
+     <a href="">Python Community Building and Training event</a></li>
+                                    
+                                    
+                                </ul>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                    <div class="row">
+    
+                        <div class="medium-widget success-stories-widget">
+                            
+    
+    
+    
+                            <div class="shrubbery">
+                                
+    
+                                <h2 class="widget-title"><span aria-hidden="true" class="icon-success-stories"></span>Success Stories</h2>
+                                <p class="give-me-more"><a href="" title="More Success Stories">More</a></p>
+    
+                                
+                                <div class="success-story-item" id="success-story-929">
+    
+                                <blockquote>
+                                    <a href="">Python's convenience has made it the most popular language for machine learning and artificial intelligence. Python's flexibility has allowed Anyscale to make ML/AI scalable from laptops to clusters.</a>
+                                </blockquote>
+    
+                                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="quote-from">
+                                    <tbody>
+                                        <tr>
+                                            
+                                            <td><p><a href="">Python provides convenience and flexibility for scalable ML/AI</a> <em>by Dean Wampler</em></p></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                                
+    
+                            </div><!-- end .shrubbery -->
+    
+                        </div>
+    
+                        <div class="medium-widget applications-widget last">
+                            <div class="shrubbery">
+                                <h2 class="widget-title"><span aria-hidden="true" class="icon-python"></span>Use Python for…</h2>
+    <p class="give-me-more"><a href="" title="More Applications">More</a></p>
+    
+    <ul class="menu">
+        <li><b>Web Development</b>:
+            <span class="tag-wrapper"><a class="tag" href="">Django</a>, <a class="tag" href="">Pyramid</a>, <a class="tag" href="">Bottle</a>, <a class="tag" href="">Tornado</a>, <a href="" class="tag">Flask</a>, <a class="tag" href=">web2py</a></span></li>
+        <li><b>GUI Development</b>:
+            <span class="tag-wrapper"><a class="tag" href="">tkInter</a>, <a class="tag" href="">PyGObject</a>, <a class="tag" href="">PyQt</a>, <a class="tag" href="">PySide</a>, <a class="tag" href="">Kivy</a>, <a class="tag" href=""tag" href="">DearPyGui</a></span></li>
+        <li><b>Scientific and Numeric</b>:
+            <span class="tag-wrapper">
+    <a class="tag" href="">SciPy</a>, <a class="tag" href="">Pandas</a>, <a href="" class="tag">IPython</a></span></li>
+        <li><b>Software Development</b>:
+            <span class="tag-wrapper"><a class="tag" href="">Buildbot</a>, <a class="tag" href="">Trac</a>, <a class="tag" href="">Roundup</a></span></li>
+        <li><b>System Administration</b>:
+            <span class="tag-wrapper"><a class="tag" href="">Ansible</a>, <a class="tag" href="">Salt</a>, <a class="tag" href="">OpenStack</a>, <a class="tag" href="">xonsh</a></span></li>
+    </ul>
+                            </div><!-- end .shrubbery -->
+                        </div>
+    
+                    </div>
+    
+                    
+                    <div class="pep-widget">
+    
+                        <h2 class="widget-title">
+                            <span class="prompt">&gt;&gt;&gt;</span> <a href="">Python Enhancement Proposals<span class="say-no-more"> (PEPs)</span></a>: The future of Python<span class="say-no-more"> is discussed here.</span>
+                            <a aria-hidden="true" class="rss-link" href=""><span class="icon-feed"></span> RSS</a>
+                        </h2>
+    
+    
+                        
+                        
+                    </div>
+    
+                                    <div class="psf-widget">
+    
+                        <div class="python-logo"></div>
+                        
+                        <h2 class="widget-title">
+        <span class="prompt">&gt;&gt;&gt;</span> <a href="">Python Software Foundation</a>
+    </h2>
+    <p>The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. <a class="readmore" href="">Learn more</a> </p>
+    <p class="click-these">
+        <a class="button" href="">Become a Member</a>
+        <a class="button" href="">Donate to the PSF</a>
+    </p>
+                    </div>
+    
+    
+    
+    
+                    </section>
+            </div><!-- end .container -->
+            </div><!-- end #content .content-wrapper -->
+    
+            <!-- Footer and social media list -->
+            <div>
+                <footer id="site-map" class="main-footer" role="contentinfo">
+                    <div class="main-footer-links">
+                        <div class="container">
+            
+                            <a id="back-to-top-1" class="jump-link" href=""><span aria-hidden="true" class="icon-arrow-up"><span>▲</span></span> Back to Top</a>
+            
+                            <ul class="sitemap navigation menu do-not-print" role="tree" id="container">
+                                <li>
+                                    <a href="">About</a>
+                                    <ul>
+                                        <li role="treeitem"><a href="" title="">Applications</a></li>
+                                        <li role="treeitem"><a href="" title="">Quotes</a></li>
+                                        <li role="treeitem"><a href="" title="">Getting Started</a></li>
+                                        <li role="treeitem"><a href="" title="">Help</a></li>
+                                        <li role="treeitem"><a href="" title="">Python Brochure</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Downloads</a>
+                                    <ul>
+                                        <li role="treeitem"><a href="" title="">All releases</a></li>
+                                        <li role="treeitem"><a href="" title="">Source code</a></li>
+                                        <li role="treeitem"><a href="" title="">Windows</a></li>
+                                        <li role="treeitem"><a href="" title="">macOS</a></li>
+                                        <li role="treeitem"><a href="" title="">Other Platforms</a></li>
+                                        <li role="treeitem"><a href="" title="">License</a></li>
+                                        <li role="treeitem"><a href="" title="">Alternative Implementations</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Documentation</a>
+                                    <ul>
+                                        <li role="treeitem"><a href="" title="">Docs</a></li>
+                                        <li role="treeitem"><a href="" title="">Audio/Visual Talks</a></li>
+                                        <li role="treeitem"><a href="" title="">Beginner's Guide</a></li>
+                                        <li role="treeitem"><a href="" title="">Developer's Guide</a></li>
+                                        <li role="treeitem"><a href="" title="">FAQ</a></li>
+                                        <li role="treeitem"><a href="" title="">Non-English Docs</a></li>
+                                        <li role="treeitem"><a href="" title="">PEP Index</a></li>
+                                        <li role="treeitem"><a href="" title="">Python Books</a></li>
+                                        <li role="treeitem"><a href="" title="">Python Essays</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Community</a>
+                                    <ul>
+                                        <li role="treeitem"><a href="" title="">Diversity</a></li>
+                                        <li role="treeitem"><a href="" title="">Mailing Lists</a></li>
+                                        <li role="treeitem"><a href="" title="">IRC</a></li>
+                                        <li role="treeitem"><a href="" title="">Forums</a></li>
+                                        <li role="treeitem"><a href="" title="">PSF Annual Impact Report</a></li>
+                                        <li role="treeitem"><a href="" title="">Python Conferences</a></li>
+                                        <li role="treeitem"><a href="" title="">Special Interest Groups</a></li>
+                                        <li role="treeitem"><a href="" title="">Python Logo</a></li>
+                                        <li role="treeitem"><a href="" title="">Python Wiki</a></li>
+                                        <li role="treeitem"><a href="" title="">Code of Conduct</a></li>
+                                        <li role="treeitem"><a href="" title="">Community Awards</a></li>
+                                        <li role="treeitem"><a href="" title="">Get Involved</a></li>
+                                        <li role="treeitem"><a href="" title="">Shared Stories</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" title="success-stories">Success Stories</a>
+                                    <ul>
+                                        <li role="treeitem"><a href="" title="">Arts</a></li>
+                                        <li role="treeitem"><a href="" title="">Business</a></li>
+                                        <li role="treeitem"><a href="" title="">Education</a></li>
+                                        <li role="treeitem"><a href="" title="">Engineering</a></li>
+                                        <li role="treeitem"><a href="" title="">Government</a></li>
+                                        <li role="treeitem"><a href="" title="">Scientific</a></li>
+                                        <li role="treeitem"><a href="" title="">Software Development</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" title="News from around the Python world">News</a>
+                                    <ul>
+                                        <li role="treeitem"><a href="" title="Python Insider Blog Posts">Python News</a></li>
+                                        <li role="treeitem"><a href="" title="Python Software Foundation Newsletter">PSF Newsletter</a></li>
+                                        <li role="treeitem"><a href="" title="PSF Blog">PSF News</a></li>
+                                        <li role="treeitem"><a href="" title="PyCon Blog">PyCon US News</a></li>
+                                        <li role="treeitem"><a href="" title="Planet Python">News from the Community</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Events</a>
+                                    <ul>
+                                        <li role="treeitem"><a href="" title="">Python Events</a></li>
+                                        <li role="treeitem"><a href="" title="">User Group Events</a></li>
+                                        <li role="treeitem"><a href="" title="">Python Events Archive</a></li>
+                                        <li role="treeitem"><a href="" title="">User Group Events Archive</a></li>
+                                        <li role="treeitem"><a href="" title="">Submit an Event</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Contributing</a>
+                                    <ul>
+                                        <li role="treeitem"><a href="" title="">Developer's Guide</a></li>
+                                        <li role="treeitem"><a href="" title="">Issue Tracker</a></li>
+                                        <li role="treeitem"><a href="" title="">python-dev list</a></li>
+                                        <li role="treeitem"><a href="" title="">Core Mentorship</a></li>
+                                        <li role="treeitem"><a href="" title="">Report a Security Issue</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+            
+                            <a id="back-to-top-2" class="jump-link" href=""><span aria-hidden="true" class="icon-arrow-up"><span>▲</span></span> Back to Top</a>
+            
+                        </div><!-- end .container -->
+                    </div>
+                </footer>
+            </div>
+            
+    
+                <div class="site-base">
+                    <div class="container">
+                        
+                        <ul class="footer-links navigation menu do-not-print" role="tree">
+                            <li class="tier-1 element-1"><a href="">Help &amp; <span class="say-no-more">General</span> Contact</a></li>
+                            <li class="tier-1 element-2"><a href="">Diversity <span class="say-no-more">Initiatives</span></a></li>
+                            <li class="tier-1 element-3"><a href="">Submit Website Bug</a></li>
+                            <li class="tier-1 element-4">
+                                <a href="" title="All Systems Operational">Status <span class="python-status-indicator-none" id="python-status-indicator"></span></a>
+                            </li>
+                        </ul>
+    
+                        <div class="copyright">
+                            <p><small>
+                                <span class="pre">Copyright ©2001-2024.</span>
+                                &nbsp;<span class="pre"><a href="">Python Software Foundation</a></span>
+                                &nbsp;<span class="pre"><a href="">Legal Statements</a></span>
+                                &nbsp;<span class="pre"><a href="">Privacy Policy</a></span>
+                             
+                            </small></p>
+                        </div>
+    
+                    </div><!-- end .container -->
+                </div><!-- end .site-base -->
+    
+            </footer>    
+         </body>
+    
+</body>
+</html>
